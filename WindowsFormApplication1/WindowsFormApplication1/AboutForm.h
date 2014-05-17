@@ -90,16 +90,20 @@ namespace WindowsFormApplication1 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(479, 203);
+			this->ClientSize = System::Drawing::Size(479, 201);
 			this->Controls->Add(this->linkLabel1);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->panel1);
 			this->Cursor = System::Windows::Forms::Cursors::Default;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->MaximizeBox = false;
+			this->MaximumSize = System::Drawing::Size(495, 240);
 			this->MinimizeBox = false;
+			this->MinimumSize = System::Drawing::Size(495, 240);
 			this->Name = L"AboutForm";
 			this->ShowIcon = false;
 			this->ShowInTaskbar = false;
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterParent;
 			this->Text = L"O programie";
 			this->TopMost = true;
 			this->ResumeLayout(false);

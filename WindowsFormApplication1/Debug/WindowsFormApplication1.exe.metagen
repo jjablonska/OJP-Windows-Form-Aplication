@@ -1,3 +1,5 @@
+  WindowsFormApplication1.AboutForm.resources - Embedded, ContainedInManifestFile, 
+  WindowsFormApplication1.AddDateForm.resources - Embedded, ContainedInManifestFile, 
   WindowsFormApplication1.Form1.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly WindowsFormApplication1, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
@@ -17,6 +19,12 @@ Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619
 Class WindowsFormApplication1.AboutForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class WindowsFormApplication1.AddDateForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.DateTimePicker dateTimePicker1 : Public
 Class WindowsFormApplication1.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
